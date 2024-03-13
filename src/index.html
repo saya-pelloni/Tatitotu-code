@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>eikon parcel starter</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="scss/main.scss" />
+  </head>
+  <body class="body">
+    <header>
+      <div class="container">
+        <div class="row">
+          <div class="col-7">
+            <img src="scss/img/TA TI TO TU.png" alt="tittle" />
+          </div>
+          <div class="col-5">
+            <button class="button">connecter</button>
+            <button class="button">S'inscrire</button>
+          </div>
+          <div class="text">
+            <p>Défis de conjugaison !</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-3">
+            <button class="button">Besoin d'aide?</button>
+          </div>
+          <div class="level">
+            <div class="col-12">
+              <h2>Niveau</h2>
+              <div class="level">
+                <select name="level" id="level">
+                  <option value="CH">5P</option>
+                  <option value="CH">6P</option>
+                  <option value="CH">7H</option>
+                  <option value="CH">8H</option>
+                  <option value="CH">9H</option>
+                  <option value="CH">10H</option>
+                  <option value="CH">11H</option>
+                </select>
+                <select name="level" id="crew">
+                  <option value="CH">Par groupe</option>
+                  <option value="CH">1er groupe (-er)</option>
+                  <option value="CH">2e groupe</option>
+                  <option value="CH">3e groupe</option>
+                  <hr />
+                  <option value="CH">3e groupe (-ir)</option>
+                  <option value="CH">3e groupe (-oir)</option>
+                  <option value="CH">3e groupe (-oir, aire, dre, etc)</option>
+                </select>
+                <select name="level" id="hard">
+                  <option value="CH">-ger</option>
+                  <option value="CH">-cer</option>
+                  <option value="CH">-ger + cer</option>
+                  <hr />
+                  <option value="CH">-Rares</option>
+                  <option value="CH">-Difficiles</option>
+                </select>
+                <select name="level" id="Pro">
+                  <option value="CH">Pronominaux</option>
+                  <option value="CH">Tous</option>
+                  <hr />
+                  <option value="CH">1 verbe au hasard</option>
+                  <option value="CH">5 verbes au hasard</option>
+                  <option value="CH">10 verbes au hasard</option>
+                </select>
+                <select name="level" id="cif">
+                  <option value="CH">CIF (FLE)</option>
+                  <option value="CH">
+                    Etre, avoir, aller et faire au présent
+                  </option>
+                  <option value="CH">10 verbes essentiels au présent</option>
+                </select>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <div class="container">
+        <div class="row">
+          <div class="col-5">
+            <div class="verbes">
+              <h2>Mes verbes</h2>
+              <input type="text" id="verbes" placeholder="Ajouter un verbes" />
+              <button class="button">Ajouter</button>
+              <p class="delet">Tout suprimer</p>
+            </div>
+          </div>
+          <div class="col-6">
+            <div class="time">
+              <h2>Mes temps</h2>
+
+              <button class="time-button">Tout cocher</button>
+              <button class="time-button">Tout décocher</button>
+              <hr />
+              <h3>INDICATIF</h3>
+              <div class="time-switch">
+                <label class="time-switch">
+                  <input type="checkbox" />
+                  <div class="time-switch-wrapper">
+                    <div class="time-switch-inner"></div>
+                  </div>
+                  Temps
+                </label>
+              </div>
+            </div>
+          </div>
+          <div class="col-5">
+            <div class="option">
+              <h2>Options</h2>
+              <p>Nombre de questions</p>
+              <div class="option-number">
+                <select name="option-number" id="option-number">
+                  <option value="option-number">5</option>
+                  <option value="option-number">10</option>
+                  <option value="option-number">20</option>
+                  <option value="option-number">30</option>
+                  <option value="option-number">40</option>
+                  <option value="option-number">50</option>
+                </select>
+              </div>
+              <div class="option-switch">
+                <label class="option-switch">
+                  <input type="checkbox" />
+                  <div class="option-switch-wrapper">
+                    <div class="option-switch-inner"></div>
+                  </div>
+                  Ajouter un chronomètre
+                </label>
+              </div>
+              <div class="option-switch">
+                <label class="option-switch">
+                  <input type="checkbox" />
+                  <div class="option-switch-wrapper">
+                    <div class="option-switch-inner"></div>
+                  </div>
+                  Options d'impression
+                </label>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-4">
+              <button class="button">EXERCER</button>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-12">
+              <hr />
+              <button class="button">Correction</button>
+              <button class="button">Recommencer</button>
+              <button class="button">Sauvegarder mon résultat</button>
+              <button class="button">Imprimer</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-4">
+            <p class="footer">
+              Contact: christophe.rouletgedu-vd.ch <br />
+              Design: Saya Pelloni <br />
+              eikon
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="js/main.js" type="module"></script>
+  </body>
+</html>

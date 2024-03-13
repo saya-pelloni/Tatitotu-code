@@ -1,0 +1,52 @@
+.time {
+  background-color: #ffffff;
+  padding: 40px;
+  margin-top: 50px;
+  margin-left: 30px;
+  border-radius: 10px;
+}
+
+.time-button {
+  background-color: #e96eba;
+  padding: 10px;
+  border-radius: 10px;
+  transition-property: background-color;
+  transition-duration: 0.3s;
+  margin: 15px;
+}
+
+button:hover {
+  background-color: #83deff;
+  border: #000000;
+}
+
+.time-switch-wrapper {
+  display: inline-block caca;
+  width: 30px;
+  height: 20px;
+  padding: 2px;
+  border-radius: 10px;
+  background: #cecece;
+}
+
+.time-switch-inner {
+  width: 16px;
+  height: 16px;
+  border-radius: 8px;
+  background: rgb(255, 255, 255);
+  transition-duration: 0.5s;
+}
+
+input:checked + .time-switch-wrapper {
+  background: #e96eba;
+  transition-property: background-color;
+  transition-duration: 0.5s;
+}
+
+input:checked + .time-switch-wrapper .time-switch-inner {
+  margin-left: 10px;
+}
+
+.time-switch input {
+  display: none;
+}

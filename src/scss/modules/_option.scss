@@ -1,0 +1,40 @@
+.option {
+  background-color: #ffffff;
+  padding: 40px;
+  border-radius: 10px;
+}
+
+.option-number {
+  margin-block: 20px;
+}
+
+.option-switch-wrapper {
+  display: inline-block caca;
+  width: 30px;
+  height: 20px;
+  padding: 2px;
+  border-radius: 10px;
+  background: #cecece;
+}
+
+.option-switch-inner {
+  width: 16px;
+  height: 16px;
+  border-radius: 8px;
+  background: rgb(255, 255, 255);
+  transition-duration: 0.5s;
+}
+
+input:checked + .option-switch-wrapper {
+  background: #e96eba;
+  transition-property: background-color;
+  transition-duration: 0.5s;
+}
+
+input:checked + .option-switch-wrapper .option-switch-inner {
+  margin-left: 10px;
+}
+
+.option-switch input {
+  display: none;
+}
