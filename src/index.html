@@ -25,11 +25,22 @@
           <div class="col-3">
             <button class="button">Besoin d'aide?</button>
           </div>
+          <div class="row">
+            <div class="col-4">
+              <div class="code8"></div>
+              <input type="text" id="code" placeholder="Code à 8 caractère" />
+            </div>
+            <div class="row">
+              <div class="col-4">
+                <button class="button">Charger mon défit</button>
+              </div>
+            </div>
+          </div>
           <div class="level">
             <div class="col-12">
               <h2>Niveau</h2>
-              <div class="level">
-                <select name="level" id="level">
+              <div class="level-button">
+                <select name="level-button" id="level">
                   <option value="CH">5P</option>
                   <option value="CH">6P</option>
                   <option value="CH">7H</option>
@@ -38,7 +49,7 @@
                   <option value="CH">10H</option>
                   <option value="CH">11H</option>
                 </select>
-                <select name="level" id="crew">
+                <select name="level-button" id="crew">
                   <option value="CH">Par groupe</option>
                   <option value="CH">1er groupe (-er)</option>
                   <option value="CH">2e groupe</option>
@@ -48,7 +59,7 @@
                   <option value="CH">3e groupe (-oir)</option>
                   <option value="CH">3e groupe (-oir, aire, dre, etc)</option>
                 </select>
-                <select name="level" id="hard">
+                <select name="level-button" id="hard">
                   <option value="CH">-ger</option>
                   <option value="CH">-cer</option>
                   <option value="CH">-ger + cer</option>
@@ -56,7 +67,7 @@
                   <option value="CH">-Rares</option>
                   <option value="CH">-Difficiles</option>
                 </select>
-                <select name="level" id="Pro">
+                <select name="level-button" id="Pro">
                   <option value="CH">Pronominaux</option>
                   <option value="CH">Tous</option>
                   <hr />
@@ -64,7 +75,7 @@
                   <option value="CH">5 verbes au hasard</option>
                   <option value="CH">10 verbes au hasard</option>
                 </select>
-                <select name="level" id="cif">
+                <select name="level-button" id="cif">
                   <option value="CH">CIF (FLE)</option>
                   <option value="CH">
                     Etre, avoir, aller et faire au présent
@@ -102,9 +113,74 @@
                   <div class="time-switch-wrapper">
                     <div class="time-switch-inner"></div>
                   </div>
-                  Temps
+                  Présent
                 </label>
               </div>
+              <div class="time-switch">
+                <label class="time-switch">
+                  <input type="checkbox" />
+                  <div class="time-switch-wrapper">
+                    <div class="time-switch-inner"></div>
+                  </div>
+                  Passé composé
+                </label>
+              </div>
+              <div class="time-switch">
+                <label class="time-switch">
+                  <input type="checkbox" />
+                  <div class="time-switch-wrapper">
+                    <div class="time-switch-inner"></div>
+                  </div>
+                  Imparfait
+                </label>
+              </div>
+              <div class="time-switch">
+                <label class="time-switch">
+                  <input type="checkbox" />
+                  <div class="time-switch-wrapper">
+                    <div class="time-switch-inner"></div>
+                  </div>
+                  Plus-Que-Parfait
+                </label>
+              </div>
+              <div class="time-switch">
+                <label class="time-switch">
+                  <input type="checkbox" />
+                  <div class="time-switch-wrapper">
+                    <div class="time-switch-inner"></div>
+                  </div>
+                  Futur
+                </label>
+              </div>
+              <div class="time-switch">
+                <label class="time-switch">
+                  <input type="checkbox" />
+                  <div class="time-switch-wrapper">
+                    <div class="time-switch-inner"></div>
+                  </div>
+                  Future antérieur
+                </label>
+              </div>
+              <div class="time-switch">
+                <label class="time-switch">
+                  <input type="checkbox" />
+                  <div class="time-switch-wrapper">
+                    <div class="time-switch-inner"></div>
+                  </div>
+                  Passé simple
+                </label>
+              </div>
+              <div class="time-switch">
+                <label class="time-switch">
+                  <input type="checkbox" />
+                  <div class="time-switch-wrapper">
+                    <div class="time-switch-inner"></div>
+                  </div>
+                  Passé antérieur
+                </label>
+              </div>
+              <hr />
+              <h3>IMPERATIF</h3>
             </div>
           </div>
           <div class="col-5">
