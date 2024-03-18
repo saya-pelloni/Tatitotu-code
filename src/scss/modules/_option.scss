@@ -9,12 +9,13 @@
 }
 
 .option-switch-wrapper {
-  display: inline-block caca;
+  display: inline-block;
   width: 30px;
   height: 20px;
   padding: 2px;
   border-radius: 10px;
   background: #cecece;
+  margin-top: 10px;
 }
 
 .option-switch-inner {
@@ -36,5 +37,20 @@ input:checked + .option-switch-wrapper .option-switch-inner {
 }
 
 .option-switch input {
+  display: none;
+}
+
+.option-button div {
+  background-color: #cecece;
+  border-radius: 10px;
+  margin-bottom: 15px;
+  padding: 10px;
+}
+
+.option-button input:checked + div {
+  background-color: #e96eba;
+}
+
+.option-button input {
   display: none;
 }

@@ -25,16 +25,12 @@
           <div class="col-3">
             <button class="button">Besoin d'aide?</button>
           </div>
-          <div class="row">
-            <div class="col-4">
-              <div class="code8"></div>
-              <input type="text" id="code" placeholder="Code à 8 caractère" />
-            </div>
-            <div class="row">
-              <div class="col-4">
-                <button class="button">Charger mon défit</button>
-              </div>
-            </div>
+          <div class="col-4">
+            <div class="code8"></div>
+            <input type="text" id="code" placeholder="Code à 8 caractère" />
+          </div>
+          <div class="col-4">
+            <button class="button">Charger mon défit</button>
           </div>
           <div class="level">
             <div class="col-12">
@@ -181,6 +177,131 @@
               </div>
               <hr />
               <h3>IMPERATIF</h3>
+              <div class="time-switch">
+                <label class="time-switch">
+                  <input type="checkbox" />
+                  <div class="time-switch-wrapper">
+                    <div class="time-switch-inner"></div>
+                  </div>
+                  Présent
+                </label>
+              </div>
+              <div class="time-switch">
+                <label class="time-switch">
+                  <input type="checkbox" />
+                  <div class="time-switch-wrapper">
+                    <div class="time-switch-inner"></div>
+                  </div>
+                  Passé
+                </label>
+              </div>
+              <hr />
+              <h3>SUBJONCTIF</h3>
+              <div class="time-switch">
+                <label class="time-switch">
+                  <input type="checkbox" />
+                  <div class="time-switch-wrapper">
+                    <div class="time-switch-inner"></div>
+                  </div>
+                  Présent
+                </label>
+              </div>
+              <div class="time-switch">
+                <label class="time-switch">
+                  <input type="checkbox" />
+                  <div class="time-switch-wrapper">
+                    <div class="time-switch-inner"></div>
+                  </div>
+                  Passé
+                </label>
+              </div>
+              <div class="time-switch">
+                <label class="time-switch">
+                  <input type="checkbox" />
+                  <div class="time-switch-wrapper">
+                    <div class="time-switch-inner"></div>
+                  </div>
+                  Imparfait
+                </label>
+              </div>
+              <div class="time-switch">
+                <label class="time-switch">
+                  <input type="checkbox" />
+                  <div class="time-switch-wrapper">
+                    <div class="time-switch-inner"></div>
+                  </div>
+                  Plus-que-parfait
+                </label>
+              </div>
+              <hr />
+              <h3>CONDITIONEL</h3>
+              <div class="time-switch">
+                <label class="time-switch">
+                  <input type="checkbox" />
+                  <div class="time-switch-wrapper">
+                    <div class="time-switch-inner"></div>
+                  </div>
+                  Présent
+                </label>
+              </div>
+              <div class="time-switch">
+                <label class="time-switch">
+                  <input type="checkbox" />
+                  <div class="time-switch-wrapper">
+                    <div class="time-switch-inner"></div>
+                  </div>
+                  Passé 1
+                </label>
+              </div>
+              <div class="time-switch">
+                <label class="time-switch">
+                  <input type="checkbox" />
+                  <div class="time-switch-wrapper">
+                    <div class="time-switch-inner"></div>
+                  </div>
+                  Passé 2
+                </label>
+              </div>
+              <hr />
+              <h3>PARTICIPE</h3>
+              <div class="time-switch">
+                <label class="time-switch">
+                  <input type="checkbox" />
+                  <div class="time-switch-wrapper">
+                    <div class="time-switch-inner"></div>
+                  </div>
+                  Présent
+                </label>
+              </div>
+              <div class="time-switch">
+                <label class="time-switch">
+                  <input type="checkbox" />
+                  <div class="time-switch-wrapper">
+                    <div class="time-switch-inner"></div>
+                  </div>
+                  Passé
+                </label>
+              </div>
+              <hr />
+              <h3>GERONDIF</h3>
+              <div class="time-switch">
+                <label class="time-switch">
+                  <input type="checkbox" />
+                  <div class="time-switch-wrapper">
+                    <div class="time-switch-inner"></div>
+                  </div>
+                  Présent
+                </label>
+              </div>
+              <div class="time-switch">
+                <label class="time-switch">
+                  <input type="checkbox" />
+                  <div class="time-switch-wrapper">
+                    <div class="time-switch-inner"></div>
+                  </div>
+                  Passé
+                </label>
+              </div>
             </div>
           </div>
           <div class="col-5">
@@ -189,6 +310,7 @@
               <p>Nombre de questions</p>
               <div class="option-number">
                 <select name="option-number" id="option-number">
+                  <option value="option-number">0</option>
                   <option value="option-number">5</option>
                   <option value="option-number">10</option>
                   <option value="option-number">20</option>
@@ -197,6 +319,14 @@
                   <option value="option-number">50</option>
                 </select>
               </div>
+              <label class="option-button">
+                <input type="radio" name="type" />
+                <div>Normal</div></label
+              >
+              <label class="option-button">
+                <input type="radio" name="type" />
+                <div>Trouver mode + temps</div></label
+              >
               <div class="option-switch">
                 <label class="option-switch">
                   <input type="checkbox" />
