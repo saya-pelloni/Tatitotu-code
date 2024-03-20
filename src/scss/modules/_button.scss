@@ -18,7 +18,7 @@ button:hover {
   border-radius: 10px;
   transition-property: background-color;
   transition-duration: 0.3s;
-  margin: 15px;
+  margin-top: 15px;
 }
 
 .button-exercice {
@@ -50,4 +50,14 @@ button:hover {
   transition-duration: 0.3s;
   margin: 15px;
   margin-left: 160px;
+}
+
+.button-help {
+  background-color: #e96eba;
+  padding: 10px;
+  border-radius: 10px;
+  transition-property: background-color;
+  transition-duration: 0.3s;
+  margin: 15px;
+  margin-right: 80px;
 }
