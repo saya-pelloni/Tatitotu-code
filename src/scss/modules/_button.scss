@@ -39,4 +39,15 @@ button:hover {
   transition-duration: 0.3s;
   margin: 15px;
   margin-left: 80px;
+  margin-top: 120px;
+}
+
+.button-sign {
+  background-color: #e96eba;
+  padding: 10px;
+  border-radius: 10px;
+  transition-property: background-color;
+  transition-duration: 0.3s;
+  margin: 15px;
+  margin-left: 160px;
 }
