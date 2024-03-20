@@ -8,7 +8,7 @@
 }
 
 button:hover {
-  background-color: #83deff;
+  background-color: #cecece;
   border: #000000;
 }
 
@@ -28,5 +28,15 @@ button:hover {
   transition-property: background-color;
   transition-duration: 0.3s;
   margin: 50px;
-  margin-left: 360px;
+  margin-left: 390px;
+}
+
+.button-end {
+  background-color: #e96eba;
+  padding: 10px;
+  border-radius: 10px;
+  transition-property: background-color;
+  transition-duration: 0.3s;
+  margin: 15px;
+  margin-left: 80px;
 }

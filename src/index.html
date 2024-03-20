@@ -94,6 +94,47 @@
               <button class="button">Ajouter</button>
               <p class="delet">Tout suprimer</p>
             </div>
+            <div class="option">
+              <h2>Options</h2>
+              <p>Nombre de questions</p>
+              <div class="option-number">
+                <select name="option-number" id="option-number">
+                  <option value="option-number">0</option>
+                  <option value="option-number">5</option>
+                  <option value="option-number">10</option>
+                  <option value="option-number">20</option>
+                  <option value="option-number">30</option>
+                  <option value="option-number">40</option>
+                  <option value="option-number">50</option>
+                </select>
+              </div>
+              <label class="option-button">
+                <input type="radio" name="type" />
+                <div>Normal</div></label
+              >
+              <label class="option-button">
+                <input type="radio" name="type" />
+                <div>Trouver mode + temps</div></label
+              >
+              <div class="option-switch">
+                <label class="option-switch">
+                  <input type="checkbox" />
+                  <div class="option-switch-wrapper">
+                    <div class="option-switch-inner"></div>
+                  </div>
+                  Ajouter un chronomètre
+                </label>
+              </div>
+              <div class="option-switch">
+                <label class="option-switch">
+                  <input type="checkbox" />
+                  <div class="option-switch-wrapper">
+                    <div class="option-switch-inner"></div>
+                  </div>
+                  Options d'impression
+                </label>
+              </div>
+            </div>
           </div>
           <div class="col-6">
             <div class="time">
@@ -304,49 +345,6 @@
               </div>
             </div>
           </div>
-          <div class="col-5">
-            <div class="option">
-              <h2>Options</h2>
-              <p>Nombre de questions</p>
-              <div class="option-number">
-                <select name="option-number" id="option-number">
-                  <option value="option-number">0</option>
-                  <option value="option-number">5</option>
-                  <option value="option-number">10</option>
-                  <option value="option-number">20</option>
-                  <option value="option-number">30</option>
-                  <option value="option-number">40</option>
-                  <option value="option-number">50</option>
-                </select>
-              </div>
-              <label class="option-button">
-                <input type="radio" name="type" />
-                <div>Normal</div></label
-              >
-              <label class="option-button">
-                <input type="radio" name="type" />
-                <div>Trouver mode + temps</div></label
-              >
-              <div class="option-switch">
-                <label class="option-switch">
-                  <input type="checkbox" />
-                  <div class="option-switch-wrapper">
-                    <div class="option-switch-inner"></div>
-                  </div>
-                  Ajouter un chronomètre
-                </label>
-              </div>
-              <div class="option-switch">
-                <label class="option-switch">
-                  <input type="checkbox" />
-                  <div class="option-switch-wrapper">
-                    <div class="option-switch-inner"></div>
-                  </div>
-                  Options d'impression
-                </label>
-              </div>
-            </div>
-          </div>
         </div>
         <div class="container">
           <div class="row">
@@ -357,10 +355,10 @@
           <div class="row">
             <div class="col-12">
               <hr />
-              <button class="button">Correction</button>
-              <button class="button">Recommencer</button>
-              <button class="button">Sauvegarder mon résultat</button>
-              <button class="button">Imprimer</button>
+              <button class="button-end">Correction</button>
+              <button class="button-end">Recommencer</button>
+              <button class="button-end">Sauvegarder mon résultat</button>
+              <button class="button-end">Imprimer</button>
             </div>
           </div>
         </div>
