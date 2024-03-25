@@ -9,7 +9,8 @@
 
 button:hover {
   background-color: #cecece;
-  border: #000000;
+  border-color: transparent;
+  color: #000000;
 }
 
 .button-chalange {
@@ -60,4 +61,13 @@ button:hover {
   transition-duration: 0.3s;
   margin: 15px;
   margin-right: 80px;
+}
+
+.button-delet {
+  color: #e96eba;
+  margin-top: 65px;
+}
+
+.button-delet:hover {
+  color: #cecece;
 }
